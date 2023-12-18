@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falador Falante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Falador Falante</h1>
+        <p>Créditos ao criador do site: <a href="https://www.github.com/guiihxyz" target="_blank">guiihxyz</a></p>
+    </header>
+
+    <main>
+        <div class="caixa-fala">
+            <div class="caixa-fala-text">
+                <input type="text" name="text" id="itext" placeholder="DIGITE UM TEXTO">
+            </div>
+            <div class="caixa-fala-button">
+                <input type="button" id="ibutton" value="FALAR">
+            </div>
+        </div>
+
+        <div class="caixa-configuracoes">
+            <div class="idioma">
+                <p>Idioma:</p>
+                <input type="radio" name="idioma" id="pt-BR" checked>
+                <label for="pt-BR">pt-BR</label> <br>
+                <input type="radio" name="idioma" id="pt-PT">
+                <label for="pt-PT">pt-PT</label>
+            </div>
+        </div>
+
+        <div id="infobox">
+            <div class="infobox-error">
+                <img class="infobox-error-image" src="images/error.png" alt="Erro">
+                <div class="infobox-error-content">
+                    <h1 class="infobox-error-title">ERRO!</h1>
+                    <p class="infobox-error-p"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="#" target="_blank">me segue no github ai namoral kkkk</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
